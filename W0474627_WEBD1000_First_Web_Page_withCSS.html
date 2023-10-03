@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<Html>
+<Style>
+    body{
+        background-color: rgb(106, 203, 225);
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    td{
+        color: white;
+        text-align: center;
+        font-size: 5vw;
+    }
+<!--
+Student Name: Johnjie Alzate
+Student ID: W0474637
+Course: WEBD 1000
+Date: 2023-09-23
+Version: 1
+-->
+</Style>
+    <head>
+        <title>Johnjie</title>
+    </head>
+    <Body>
+        <h1>Network Diagramming Symbools</h1>
+        <table style="width: 100%;">
+            <tr>
+                <th style="width: 25%;"> 
+                    <img src="../Classroom Exercises/Affinity/c_switch_blue.svg" alt="Layer 2" style="width:auto;height:auto;">
+                </th>
+                <th style="width: 25%;">
+                    <img src="../Classroom Exercises/Affinity/c_firewall_blue.svg" alt="Firewall" style="width:auto;height:auto;">
+                </th>
+                <th style="width: 25%;">
+                    <img src="../Classroom Exercises/Affinity/c_cloud_blue.svg" alt="Service Provider" style="width:auto;height:auto;">
+                </th>
+                <th style="width: 25%;">
+                    <img src="../Classroom Exercises/Affinity/c_house_blue.svg" alt="SOHO" style="width:auto;height:auto;">
+                </th>
+            <tr>
+                <td>Layer 2 Switch</td>
+                <td>Firewall</td>
+                <td>Service Provider</td>
+                <td>SOHO</td>
+            </tr>
+        </Table>
+    </Body>
+</Html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left middle middle right right' 
+    'footer footer footer footer footer footer';
+    grid-template-columns: 4;
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+}
+
+/* Style the right column */
+.right {
+  grid-area: right;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Network Diagramming Symbools</h2>
+<p>Modern, crisp, pixel-perfect, printable, manufacturer independent symbols for computer-network topology</p>
+<p><strong>Note:</strong> Thee are samples only from Affinity.</p>
+
+<div class="grid-container">
+  <div class="header">
+    <h2>Different Network Diagramming Symbols</h2>
+  </div>
+  
+  <div class="left" style="background-color:#aaaaaa;">Layer 2 Switch</div>
+  <div class="middle" style="background-color:#bbb;">Firewall</div>  
+  <div class="right" style="background-color:#ccc;">Service Provider</div>
+  <div class="right" style="background-color:#ccc;">Service Provider</div>
+  
+  <div class="footer">
+  <p>NSCC ITGE 2025</p>
+  </div>
+</div>
+
+</body>
+</html>
