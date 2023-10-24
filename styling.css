@@ -1,0 +1,18 @@
+p {
+    color: blue;
+}
+body {
+    background-color: rgb(151, 156, 189);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.box {
+    color: brown;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
