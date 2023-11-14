@@ -71,30 +71,48 @@
             <h5>Become a Driver</h5>
         </Section>
         <Section>
-            <h5>Testimonies</h5>
-            <button class="accordion">Question 1</button>
-            <div class="panel">
-                <p>Answer 1</p>
-            <button class="accordion">Question 2</button>
-            <div class="panel">
-                <p>Answer 2</p>
-            </div>
-            <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
-                
-                for (i = 0; i < acc.length; i++) {
-                  acc[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                      panel.style.display = "none";
-                    } else {
-                      panel.style.display = "block";
-                    }
-                  });
-                }
-                </script>
+            <div class="container mt-3">
+                <h2>Testimonies</h2>
+                <p><strong>Note:</strong> Here are some of the testimonies from the students whi use the service.</p>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                        Collapsible Group Item #1
+                      </a>
+                    </div>
+                    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                      Collapsible Group Item #2
+                    </a>
+                    </div>
+                    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                        Collapsible Group Item #3
+                      </a>
+                    </div>
+                    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </Section>
     </body>
 </html> 
