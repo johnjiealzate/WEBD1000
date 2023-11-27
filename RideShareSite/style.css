@@ -72,7 +72,12 @@ footer {
    padding-top: 30px;
 }
 
-h6 {
+h3 {
    font-size: 30px;
+}
+
+footer {
+   text-align: center;
+
 }
 
