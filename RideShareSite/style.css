@@ -59,3 +59,20 @@ body {
  .navbar-brand {
     font-size: x-large;
  }
+
+.drivers-riders {
+   padding-top: 30px;
+}
+
+footer {
+   padding-top: 30px;
+}
+
+.testimonies, .drivers-riders, .faqs {
+   padding-top: 30px;
+}
+
+h6 {
+   font-size: 30px;
+}
+
