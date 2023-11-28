@@ -27,3 +27,11 @@
     background-color: #008CBA;
     color: white;
 }
+
+footer {
+    align-items: center;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
