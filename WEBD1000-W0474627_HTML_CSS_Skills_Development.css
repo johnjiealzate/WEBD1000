@@ -10,3 +10,20 @@
     color: aqua;
 }
 
+.div_exercise5 {
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.flex_container_exercise6 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: white;
+}
+
+.button_exercise8:hover {
+    background-color: #008CBA;
+    color: white;
+}
