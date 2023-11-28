@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
  }
+
+ /* Styling for FAQs */
  .hero {
     position: relative;
     width: 100vw;
@@ -60,24 +62,39 @@ body {
     font-size: x-large;
  }
 
-.drivers-riders {
-   padding-top: 30px;
+/* Styling for testimonials */
+.container_testimonial {
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
 }
 
-footer {
-   padding-top: 30px;
+.container_testimonial::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.testimonies, .drivers-riders, .faqs {
-   padding-top: 30px;
+.container_testimonial img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
-h3 {
-   font-size: 30px;
+.container_testimonial span {
+  font-size: 20px;
+  margin-right: 15px;
 }
 
-footer {
-   text-align: center;
-
+@media (max-width: 500px) {
+   .container_testimonial {
+      text-align: center;
+  }
+  .container_testimonial img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
 }
-
