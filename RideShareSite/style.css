@@ -111,8 +111,10 @@ h1 {
 .container_testimonial {
   border: 1px solid #ccc;
   background-color: #F8F8F8;
+  background-color: #F8F8F8;
   border-radius: 5px;
   padding: 16px;
+  margin: 16px 0;
   margin: 16px 0;
 }
 .container_testimonial::after {
