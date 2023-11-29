@@ -105,7 +105,9 @@ div.a, div.b {
 h1 {
    color: #0F427A;
 }
-
+p1 {
+   color: black;
+}
 
 /* Testimonials Styling */
 .container_testimonial {
