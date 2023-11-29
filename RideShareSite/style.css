@@ -1,96 +1,134 @@
+/* Header styling */
 .container_header {
+   color: #0F427A;
+   padding-top: 5px;
    text-align: center;
 }
+
+/* Body styling */
 body {
     margin: 0;
     padding: 0;
  }
 
- /* Styling for FAQs */
+ /*  Hero Section Styling */
  .hero {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url(images/Ride1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(60%);
- }
- .hero-content {
-    position: relative;
-    font-family: "Monserrat", sans-serif;
-    color: white;
-    text-align: center;
-    margin: 0.625rem;
- }
- .hero-title {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0;
- }
- .hero-subtitle {
-    font-size: 2rem;
-    font-weight: 200;
-    margin-top: 1rem;
- }
- .hero-button {
-    background-color: #ae2d59;
-    color: white;
-    border: 1px solid #cb376a;
-    margin-top: 5rem;
-    padding: 0.9375rem1.875rem;
-    font-family: "Monserrat", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    cursor: pointer;
-    size: 10cm;
- }
- .hero-button:hover {
-    background-color: #cb376a;
-    border: 1px solid #db7598;
- }
- .navbar-brand {
-    font-size: x-large;
- }
-
-/* Styling for testimonials */
-.container_testimonial {
-  border: 1px solid #ccc;
-  background-color: #eee;
-  border-radius: 5px;
-  padding: 16px;
-  margin: 16px 0
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.hero::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(images/Ride1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   filter: brightness(60%);
+}
+.hero-content {
+   position: relative;
+   font-family: "Monserrat", sans-serif;
+   color: white;
+   text-align: center;
+   margin: 0.625rem;
+}
+.hero-title {
+   font-size: 3rem;
+   font-weight: 600;
+   margin-bottom: 0;
+}
+.hero-subtitle {
+   font-size: 2rem;
+   font-weight: 200;
+   margin-top: 0.5rem;
+}
+.hero-button {
+   background-color: #0F427A;
+   color: white;
+   border: 1px solid #0F427A;
+   margin-top: 3rem;
+   padding: 0.7rem 2rem;
+   font-family: "Monserrat", sans-serif;
+   font-size: 1.125rem;
+   font-weight: 200;
+   cursor: pointer;
+   size: 10cm;
+}
+.hero-button:hover {
+   background-color: green;
+   border: 1px solid green;
+}
+.navbar-brand {
+   font-size: x-large;
 }
 
+ /* Become a Driver/Rider Styling */
+.driver_learn_more {
+   background-color: #F8F8F8;
+   border: none;
+   color: #0F427A;
+   padding: 10px 32px;
+   text-align: left;
+   display: inline-block;
+   font-size: 16px;
+}
+.driver_learn_more:hover {
+   background-color: #0F427A;
+   border: none;
+   color: white;
+}
+.rider_learn_more {
+   background-color: #F8F8F8;
+   border: none;
+   color: #0F427A;
+   padding: 10px 32px;
+   text-align: left;
+   display: inline-block;
+   font-size: 16px;
+}
+.rider_learn_more:hover {
+   background-color: #0F427A;
+   border: none;
+   color: white;
+}
+div.a, div.b {
+   height: 10px;
+}
+h1 {
+   color: #0F427A;
+}
+
+
+/* Testimonials Styling */
+.container_testimonial {
+  border: 1px solid #ccc;
+  background-color: #F8F8F8;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
 .container_testimonial::after {
   content: "";
   clear: both;
   display: table;
 }
-
 .container_testimonial img {
   float: left;
   margin-right: 20px;
   border-radius: 50%;
 }
-
 .container_testimonial span {
   font-size: 20px;
   margin-right: 15px;
 }
-
 @media (max-width: 500px) {
    .container_testimonial {
       text-align: center;
@@ -102,7 +140,18 @@ body {
   }
 }
 
+/* FAQ Styling */
+.row {
+   color: #0F427A;
+}
+.container_testimonial_section {
+   color: #0F427A;
+}
+.container {
+   color: #0F427A;
+}
+
+/* Footer styling */
 footer {
    text-align: center;
 }
-
