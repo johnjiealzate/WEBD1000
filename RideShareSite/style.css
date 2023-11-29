@@ -1,15 +1,18 @@
-/* Header styling */
+/* Header Styling */
 .container_header {
    color: #0F427A;
    padding-top: 5px;
    text-align: center;
 }
 
-/* Body styling */
+/* Body Styling */
 body {
     margin: 0;
     padding: 0;
  }
+ h1 {
+   color: #0F427A;
+}
 
  /*  Hero Section Styling */
  .hero {
@@ -102,11 +105,14 @@ body {
 div.a, div.b {
    height: 10px;
 }
-h1 {
+.row {
    color: #0F427A;
 }
 p1 {
    color: black;
+}
+.container {
+   color: #0F427A;
 }
 
 /* Testimonials Styling */
@@ -145,13 +151,7 @@ p1 {
 }
 
 /* FAQ Styling */
-.row {
-   color: #0F427A;
-}
 .container_testimonial_section {
-   color: #0F427A;
-}
-.container {
    color: #0F427A;
 }
 
