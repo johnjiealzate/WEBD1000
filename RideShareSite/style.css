@@ -72,7 +72,31 @@ body {
 .navbar-brand {
    font-size: x-large;
 }
-
+.dropoff, .pickup, .search_button {
+   border-radius: 4px;
+   border: none;
+   padding: 5px;
+   font-family: "Monserrat", sans-serif;
+}
+#form {
+   padding: 5px;
+}
+.search_button {
+   background-color: #0F427A;
+   color: white;
+   border: 1px solid #0F427A;
+   margin-top: 0.3rem;
+   padding: 7px 43px;
+   font-family: "Monserrat", sans-serif;
+   font-size: 1rem;
+   font-weight: 200;
+   cursor: pointer;
+   size: 10cm;
+}
+.search_button:hover {
+   background-color: green;
+   border: 1px solid green;
+}
  /* Become a Driver/Rider Styling */
 .driver_learn_more {
    background-color: #F8F8F8;
@@ -158,4 +182,43 @@ p1 {
 /* Footer styling */
 footer {
    text-align: center;
+}
+.sitemap {
+   list-style-type: none;
+   display: inline;
+   color: black;
+   text-decoration: none;
+}
+.terms_and_conditions, .about, .contact_us, .need_a_ride_footer, .give_a_ride_footer, .testimonies_footer, .faqs_footer, .safety_footer {
+   text-decoration: none;
+   color: gray;
+}
+.contact_us:hover, .about:hover, .terms_and_conditions:hover, .need_a_ride_footer:hover, .give_a_ride_footer:hover, .testimonies_footer:hover, .faqs_footer:hover, .safety_footer:hover  {
+   color: black;
+}
+.twitter {
+   max-width: 20px;
+}
+.facebook {
+   max-width: 20px;
+}
+.instagram {
+   max-width: 20px;
+}
+.skype {
+   max-width: 20px;
+}
+.whatsapp {
+   max-width: 20px;
+}
+.container_socials {
+   padding: 20px;
+}
+footer {
+   border-top: 23px;
+}
+#footer {
+   padding-top: 30px;
+   border-top: solid;
+   border-color: #e6e5e5;
 }
