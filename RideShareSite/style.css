@@ -15,7 +15,7 @@ body {
 }
 
  /*  Hero Section Styling */
- .hero {
+ #hero {
    position: relative;
    width: 100vw;
    height: 100vh;
@@ -23,7 +23,7 @@ body {
    justify-content: center;
    align-items: center;
 }
-.hero::before {
+#hero::before {
    content: "";
    position: absolute;
    top: 0;
@@ -36,7 +36,7 @@ body {
    background-position: center center;
    filter: brightness(60%);
 }
-.hero-content {
+#hero-content {
    position: relative;
    font-family: "Monserrat", sans-serif;
    color: white;
