@@ -227,3 +227,8 @@ footer {
    border-color: #e6e5e5;
    border-width: 1px;
 }
+#div_socials {
+   align-content: center;
+   align-items: center;
+   text-align: center;
+}
