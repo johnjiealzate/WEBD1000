@@ -70,8 +70,17 @@
           <div class="container" id="hero-content">         
             <h2 class="hero-title">Ride Sharing</h2> 
             <h3 class="hero-subtitle">The smarter way to travel!</h3>
-            <button type="button" class="hero-button" onclick="location.href='needaride.html'">Need a Ride</button>
-            <button type="button" class="hero-button" onclick="location.href='givearide.html'">Give a Ride</button>
+            <form>
+              <div id="form">
+              <input class="pickup" type="text" placeholder="Pick-up location" name="pickup_location"  required>
+              </div>
+              <div id="form">
+                <input class="dropoff" type="text" placeholder="Drop-off location" name="dropoff_location"  required>
+              </div>
+              <div id="form">
+                <button type="button" class="search_button" onclick="location.href='serach_for_a_ride.html'">Search for a ride</button>
+            </div>
+            </form>
           </div>
         </section>      
         <!-- Drivers and Riders Section -->
@@ -179,11 +188,16 @@
         <section id="safety">
           <div class="container mt-3 p-5 my-5 border">
             <h3>Safety</h3>
-            <p1>This section  is for safety.</p1>
+            <p1>Great travel experience for NSCC students is our core process and in line with this is the <strong>SAFETY</strong> of everyone as our top priority.</p1>
           </div>
         </section>     
         <!-- Footer -->
         <footer>
+          <nav class="sitemap">
+            <a href="" class="terms_and_conditions">Terms and Conditions</a> |
+            <a href="" class="about">About NSCC Ride Share</a> |
+            <a href="" class="contact_us">Contact us</a> |
+           </nav>
           <div id="footer">
             <p>© 2023 Johnjie Alzate</p>
           </div>
