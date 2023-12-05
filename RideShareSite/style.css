@@ -80,6 +80,7 @@ body {
    display: inline-block;
    margin-top: 0.3rem;
    font-size: 1rem;
+   width: 80%;
 }
 #form {
    padding: 5px;
