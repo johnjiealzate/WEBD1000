@@ -53,22 +53,6 @@ body {
    font-weight: 200;
    margin-top: 0.5rem;
 }
-.hero-button {
-   background-color: #0F427A;
-   color: white;
-   border: 1px solid #0F427A;
-   margin-top: 3rem;
-   padding: 0.7rem 2rem;
-   font-family: "Monserrat", sans-serif;
-   font-size: 1.125rem;
-   font-weight: 200;
-   cursor: pointer;
-   size: 10cm;
-}
-.hero-button:hover {
-   background-color: green;
-   border: 1px solid green;
-}
 .navbar-brand {
    font-size: x-large;
 }
@@ -90,7 +74,7 @@ body {
    color: white;
    border: 1px solid #0F427A;
    margin-top: 0.3rem;
-   padding: 7px 43px;
+   padding: 7px 10px;
    font-family: "Monserrat", sans-serif;
    font-size: 1rem;
    font-weight: 200;
