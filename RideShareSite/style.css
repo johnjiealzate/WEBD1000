@@ -14,6 +14,11 @@ body {
    color: #0F427A;
 }
 
+/* Navigation */
+#navi {
+   -ms-flex-item-align: end;
+}
+
  /*  Hero Section Styling */
  #hero {
    position: relative;
@@ -53,22 +58,6 @@ body {
    font-weight: 200;
    margin-top: 0.5rem;
 }
-.hero-button {
-   background-color: #0F427A;
-   color: white;
-   border: 1px solid #0F427A;
-   margin-top: 3rem;
-   padding: 0.7rem 2rem;
-   font-family: "Monserrat", sans-serif;
-   font-size: 1.125rem;
-   font-weight: 200;
-   cursor: pointer;
-   size: 10cm;
-}
-.hero-button:hover {
-   background-color: green;
-   border: 1px solid green;
-}
 .navbar-brand {
    font-size: x-large;
 }
@@ -80,7 +69,10 @@ body {
    display: inline-block;
    margin-top: 0.3rem;
    font-size: 1rem;
-   width: 80%;
+   width: 100%;
+}
+@media screen and (min-width: 900px) {
+   .dropoff, .pickup, .search_button { width: 35%;}
 }
 #form {
    padding: 5px;
@@ -90,7 +82,7 @@ body {
    color: white;
    border: 1px solid #0F427A;
    margin-top: 0.3rem;
-   padding: 7px 43px;
+   padding: 7px 10px;
    font-family: "Monserrat", sans-serif;
    font-size: 1rem;
    font-weight: 200;
