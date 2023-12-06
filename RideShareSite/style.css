@@ -14,6 +14,11 @@ body {
    color: #0F427A;
 }
 
+/* Navigation */
+#navi {
+   -ms-flex-item-align: end;
+}
+
  /*  Hero Section Styling */
  #hero {
    position: relative;
