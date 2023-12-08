@@ -71,8 +71,11 @@ body {
    font-size: 1rem;
    width: 100%;
 }
-@media screen and (min-width: 900px) {
-   .dropoff, .pickup, .search_button { width: 35%;}
+@media screen and (min-width: 1200px) {
+   .dropoff, .pickup { width: 35%;}
+}
+@media screen and (min-width: 1200px) {
+   .search_button { width: 17.35%;}
 }
 #form {
    padding: 5px;
