@@ -47,6 +47,7 @@ body {
    color: white;
    text-align: center;
    margin: 0.625rem;
+   align-items: center;
 }
 .hero-title {
    font-size: 3rem;
@@ -71,11 +72,14 @@ body {
    font-size: 1rem;
    width: 100%;
 }
-@media screen and (min-width: 900px) {
-   .dropoff, .pickup, .search_button { width: 35%;}
+@media screen and (min-width: 1200px) {
+   .dropoff, .pickup { width: 35%;}
+}
+@media screen and (min-width: 1200px) {
+   .search_button { width: 17.35%;}
 }
 #form {
-   padding: 5px;
+   padding: 1px;
 }
 .search_button {
    background-color: #0F427A;
@@ -218,9 +222,6 @@ footer {
    border-top: solid;
    border-color: #e6e5e5;
    border-width: 1px;
-#footer3 {
-   color: gray;
-}
 }
 #div_socials {
    align-content: center;
