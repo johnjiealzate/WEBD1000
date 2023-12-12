@@ -25,7 +25,12 @@
     .flex-item-right, .flex-item-left {
       flex: 100%;
     }
-  }
+}
+@media (max-width: 700px) {
+    .flex_1 {
+        font-size: small;
+    }
+}
 b {
     color: #295985;
 }
@@ -57,8 +62,7 @@ p1 {
     position: relative;
     font-family: "Monserrat", sans-serif;
     color: white;
-    text-align: center;
-    margin: 0.625rem;
+    margin: 2.3rem;
     display: flex;
     flex-wrap: wrap;
     font-size: 30px;
