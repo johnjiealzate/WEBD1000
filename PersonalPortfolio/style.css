@@ -28,7 +28,7 @@
   }
 @media (max-width: 700px) {
     .flex_1 {
-        font-size: small;
+        font-size: smaller;
     }
 }
 b {
