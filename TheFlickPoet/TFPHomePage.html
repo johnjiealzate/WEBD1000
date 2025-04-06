@@ -3,7 +3,7 @@
     <head>
         <title>The Flick Poet</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width. intial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -14,28 +14,28 @@
         </header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-            <a>The Flick Poet</a>
-            <div id="nav">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="=navbarNav" aria-expanded="falsae" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact_us">Contact</a>
-                        </li>  
-                    </ul>
+                <a href="#" class="navbar-brand">The Flick Poet</a> <!-- Added href to make it a link -->
+                <div id="nav">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact_us">Contact</a>
+                            </li>  
+                        </ul>
+                    </div>
                 </div>
-            </div>
             </div>
         </nav>
         <section class="hero">
@@ -45,29 +45,30 @@
                 <button type="button" class="hero-button" onclick="location.href='browse_our_catalog.html'">Browse our catalog</button>
                 <button type="button" class="hero-button" onclick="location.href='contact_us.html'">Contact us</button>
             </div> 
-        </Section>
-        <!-- About -->
+        </section>
+        <!-- Portfolio -->
         <section id="portfolio" class="portfolio">
             <div class="container p-5 my-5 border">
                 <h3>Portfolio</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book...</p>
             </div>
         </section>
-        <!-- Testimonials -->
+        <!-- About -->
         <section id="about" class="about">
             <div class="container p-5 my-5 border">
-            <h3>About</h3>
+                <h3>About</h3>
             </div>
         </section>
-        <!-- FAQs Section -->
+        <!-- Contact Us Section -->
         <section id="contact_us" class="contact">
             <div class="container mt-3 p-5 my-5 border">
                 <h3>Contact Us</h3>
+            </div> <!-- Close the div properly -->
         </section>     
         <!-- Footer -->
         <footer>
             <div id="footer" class="container_footer">
-            <p>© 2023 Johnjie Alzate</p>
+                <p>© 2023 Johnjie Alzate</p>
             </div>
         </footer>
     </body>
